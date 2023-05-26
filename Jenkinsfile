@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        msbuild = '%VS160COMNTOOLS%../../MSBuild/Current/Bin/MSBuild.exe'
+        msbuild = '%VS160COMNTOOLS%../../MSBuild/Current/Bin/msbuild.exe'
     }
     stages {
         stage('Checkout Stage') {
